@@ -26,9 +26,8 @@ body {
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
-}
 
-.dark {
+
   --clr-bg: #2e3047;
   --clr-bg-alt: #3c3f58;
   --clr-fg: #b4bcde;
@@ -466,7 +465,7 @@ main {
 }
 
 .timeline-content {
-  
+
   background-color: var(--clr-bg-alt);
   padding: 30px;
   border-left: 4px solid var(--clr-fg-alt);
