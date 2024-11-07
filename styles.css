@@ -256,9 +256,15 @@ main {
 }
 
 .about {
-  flex-direction: column;
-  margin-top: 13em;
+
+
+  margin-top: 0em;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-45%);
 }
+
 
 .about__name {
   color: var(--clr-fg);
@@ -507,29 +513,40 @@ p {
 
 
 .about__image-container {
-  position: relative;
+
+
+
+
+
+  margin-top: 0em;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-45%);
+ 
+  margin-left: 800px;
+
+
+
 }
 
 .about__image-container::after {
-  content: "";
+  /* content: "";
   display: block;
-  height: 40px;
+  height: 40px; */
   /* Adjust the height as needed */
 }
 
 .about__image-container img {
   height: auto;
   max-width: 480px;
-  /* Adjust the max-width as needed */
-  display: block;
-  margin: 0 auto;
-  position: absolute;
-  top: -420px;
-  /* Adjust the value as needed */
-  right: 0;
-  /* Align to right */
   box-shadow: var(--shadow);
-  /* Add shadow */
+
+
+
+
+
+
 }
 
 .fa-chevron-right {
