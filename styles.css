@@ -221,7 +221,6 @@ button {
 
 main {
   max-width: 1280px;
-  width: 95%;
   margin: 0 auto;
 }
 
@@ -588,9 +587,28 @@ p {
   .about {
     align-items: flex-start;
     margin-top: 27.5em;
+  }
+
+  .about__desc {
     margin-left: 1em;
     margin-right: 1em;
   }
+
+  .about h1 {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .about__role {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .about__contact {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
 
   .footer {
     padding: 2em;
