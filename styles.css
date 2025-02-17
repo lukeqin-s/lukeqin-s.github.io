@@ -15,10 +15,13 @@
   font-size: inherit;
   box-shadow: none;
   box-sizing: border-box;
+max-width: 100%;
 }
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 body {
@@ -28,8 +31,7 @@ body {
   background-color: var(--clr-bg);
 
   overflow-x: hidden;
-  width: 100%;
-  max-width: 100vw;
+  max-width: 100%;
 
 
 
