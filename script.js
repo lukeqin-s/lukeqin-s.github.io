@@ -1,5 +1,16 @@
 const body = document.body
 
+
+var docWidth = document.documentElement.offsetWidth;
+[].forEach.call(
+	document.querySelectorAll('*'),
+	function (el) {
+		if (el.offsetWidth > docWidth) {
+			console.log(el);
+		}
+	}
+);
+
 const btnHamburger = document.querySelector('.fa-bars')
 
 const displayList = () => {

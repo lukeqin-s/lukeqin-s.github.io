@@ -15,7 +15,6 @@
   font-size: inherit;
   box-shadow: none;
   box-sizing: border-box;
-max-width: 100%;
 }
 
 html {
@@ -666,22 +665,24 @@ p {
     display: none;
   }
 
-  .timeline-item {
-    position: relative;
-    width: 107%;
-    text-align: left;
-    margin-left: 0em;
-    margin-right: 2em;
-  }
-
-  .timeline-item.right {
-    position: relative;
-    width: 107%;
-    left: -5.75em;
-    text-align: left;
-    margin-left: 2em;
-    margin-right: 2em;
-  }
+    .timeline-item.left {
+      position: relative;
+      width: 92.5%;
+      text-align: left;
+      padding-right: 0px;
+      margin-left: 0em;
+      margin-right: 0em;
+    }
+  
+    .timeline-item.right {
+      position: relative;
+      width: 92.5%;
+      left: 0%;
+      padding-left: 0px;
+      text-align: left;
+      margin-left: 0em;
+      margin-right: 0em;
+    }
 
   .timeline-content {
     background-color: var(--clr-bg-alt);
