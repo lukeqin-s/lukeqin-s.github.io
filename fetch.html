@@ -22,19 +22,21 @@
     <main>
         <section id="gallery" class="section gallery">
             <h2 class="section__title" style="margin: 1em; margin-top: 0em;">Autonomous AI Fetch Robot</h2>
-            <p style="text-align: left; padding-bottom: 2em; line-height: 1.5; max-width: 1080px; margin: 0 auto;"> This personal project involved designing and building a car robot equipped with a Raspberry Pi, a camera, IR, and ultrasonic sensors.<br><br>
+            <p style="text-align: left; padding-bottom: 2em; line-height: 1.5; margin: 1em;"> This personal project involved designing and building a car robot equipped with a Raspberry Pi, a camera, IR, and ultrasonic sensors.<br><br>
             The goal was to create a robot capable of detecting and following a person using OpenCV for body and ball contour
             recognition, picking up a dropped ball, and returning it. The project was made more challenging by the constraint of a lack of absolute positioning sensors, such as gyroscope or IMUs, or LIDAR. The design required integrating the frame, connecting electrical
             components, and overcoming challenges related to sensor coordination and object detection.
             </p>
-            <div class="gallery__grid">
-                <iframe width="1280" height="720" src="https://www.youtube.com/embed/3hdKIE38dDQ">
-                </iframe>
+
+                <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+                    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/3hdKIE38dDQ" frameborder="0" allowfullscreen></iframe>
+                </div>
+
             </div>
 
             <h2 class="section__title" style="margin: 1em; margin-top: 2em;">Process and methodology</h2>
-            <p style="text-align: left; padding-bottom: 2em; line-height: 1.5; max-width: 1080px; margin: 0 auto;">
-                <img src="Fetch_Robot_Transparent.png" alt="Fetch Robot" style="float: left; margin: -1em; margin-left: -5em; margin-right: -3em; max-width: 50%;">
+            <p style="text-align: left; padding-bottom: 2em; line-height: 1.5; margin: 1em;">
+                <img src="Fetch_Robot_Transparent.png" alt="Fetch Robot" style="float: left; margin-top: 0em; margin-left: 0em; margin-right: 3em; max-width: 30%;">
                 The development of the Autonomous AI Fetch Robot began with designing a lightweight and stable laser-cut acrylic frame to house the
                 electrical components, ensuring accessibility for wiring and adjustments.<br><br>The robot was equipped with a Raspberry Pi for
                 computation, a camera for vision processing, and IR and ultrasonic sensors for object detection and obstacle avoidance.
@@ -45,19 +47,33 @@
                 
             </p>
 
-            <h2 class="section__title" style="margin: 1em; margin-top: 0em;">Reasoning and reflection</h2>
-            <p style="text-align: left; padding-bottom: 2em; line-height: 1.5; max-width: 1080px; margin: 0 auto;">
+        <style>
+            @media (max-width: 1440px) {
+            .spacer {
+                display: none;
+            }
+            }
+            @media (min-width: 1441px) {
+            .spacer {
+                display: block;
+            }
+            }
+        </style>
+        <div class="spacer"><br><br><br><br><br><br></div>
+
+            <h2 class="section__title" style="margin: 1em; margin-top: 0em;">Challenges and reflection</h2>
+            <p style="text-align: left; padding-bottom: 2em; line-height: 1.5; margin: 1em;">
                 <img src="OpenCV_3.png" alt="OpenCV Original Image"
-                    style="float: right; margin: 0em; margin-left: 5em; margin-right: 0em; margin-bottom: 4em; max-width: 30%;">
+                    style="float: right; margin: 0em; margin-left: 2em; margin-right: 0em; margin-bottom: 2em; max-width: 40%;">
                 The absence of absolute positioning sensors such as gyroscopes or LIDAR posed a significant challenge, requiring
-                creative problem-solving to ensure the robot’s functionality. By leveraging the camera for vision-based navigation and
+                creative problem-solving to ensure the robot’s functionality. By leveraging the camera for vision-based navigation, then
                 combining sensor data from IR and ultrasonic components, a robust and cost-effective alternative was developed.<br><br>The
                 project highlighted the importance of balancing hardware constraints with software solutions, such as compensating for
                 sensor limitations through advanced image processing techniques. Reflecting on the project, the iterative process of
                 testing and debugging reinforced the value of adaptability and persistence in addressing technical challenges, while
                 deepening my understanding of sensor integration and autonomous robotics.
                 
-                <br><br>Next steps: Implement SLAM using LIDAR, mapping surroundings to enable point-to-point navigation.</p>
+                <br><br>Project next steps: Implement SLAM using LIDAR, mapping surroundings to enable point-to-point navigation.</p>
     </main>
 
     <script src="./script.js"></script>
