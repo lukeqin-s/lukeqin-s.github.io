@@ -662,7 +662,7 @@ p {
 
   .portfolio__images {
     max-width: 1280px;
-    margin: 0 30em;
+    margin: 0 1em;
     display: flex;
     flex-direction: column;
     gap: 2em;
