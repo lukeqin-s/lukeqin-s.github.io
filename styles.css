@@ -672,12 +672,12 @@ p {
     width: 100%;
     overflow: hidden;
     border-radius: 8px;
-    box-shadow: var(--shadow);
-    transition: transform 0.2s ease-in-out;
+    box-shadow: none;
+    transition: none;
   }
 
   .portfolio__image-container:hover {
-    transform: translateY(-5px);
+    transform: none;
   }
 
   .portfolio__image-container img {
