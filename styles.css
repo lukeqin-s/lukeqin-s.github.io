@@ -746,7 +746,8 @@ p {
 
 @media (min-width: 1441px) {
   .portfolio__image-container img {
-    width: 65%;
+    width: 65% !important;
+    height: auto !important;
     margin-left: auto;
     margin-right: auto;
     display: block;
